@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E80361132B36B238009960E2 /* DomitoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361122B36B238009960E2 /* DomitoryApp.swift */; };
-		E80361152B36B238009960E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361142B36B238009960E2 /* ContentView.swift */; };
 		E80361172B36B238009960E2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361162B36B238009960E2 /* Item.swift */; };
 		E80361192B36B239009960E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80361182B36B239009960E2 /* Assets.xcassets */; };
 		E803611C2B36B239009960E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E803611B2B36B239009960E2 /* Preview Assets.xcassets */; };
 		E80361262B36B239009960E2 /* DomitoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361252B36B239009960E2 /* DomitoryTests.swift */; };
 		E80361302B36B239009960E2 /* DomitoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E803612F2B36B239009960E2 /* DomitoryUITests.swift */; };
 		E80361322B36B239009960E2 /* DomitoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80361312B36B239009960E2 /* DomitoryUITestsLaunchTests.swift */; };
+		E8B3B4F32B39597A000F696E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B3B4F22B39597A000F696E /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		E803610F2B36B238009960E2 /* Domitory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Domitory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80361122B36B238009960E2 /* DomitoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomitoryApp.swift; sourceTree = "<group>"; };
-		E80361142B36B238009960E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E80361162B36B238009960E2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E80361182B36B239009960E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E803611B2B36B239009960E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		E803612B2B36B239009960E2 /* DomitoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomitoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E803612F2B36B239009960E2 /* DomitoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomitoryUITests.swift; sourceTree = "<group>"; };
 		E80361312B36B239009960E2 /* DomitoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomitoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8B3B4F22B39597A000F696E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				E80361122B36B238009960E2 /* DomitoryApp.swift */,
-				E80361142B36B238009960E2 /* ContentView.swift */,
+				E8B3B4F22B39597A000F696E /* MainView.swift */,
 				E80361162B36B238009960E2 /* Item.swift */,
 				E80361182B36B239009960E2 /* Assets.xcassets */,
 				E803611A2B36B239009960E2 /* Preview Content */,
@@ -260,8 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80361152B36B238009960E2 /* ContentView.swift in Sources */,
 				E80361172B36B238009960E2 /* Item.swift in Sources */,
+				E8B3B4F32B39597A000F696E /* MainView.swift in Sources */,
 				E80361132B36B238009960E2 /* DomitoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
